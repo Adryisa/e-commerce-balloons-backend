@@ -1,0 +1,35 @@
+{
+  "name": "partyando-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production nodemon app.js",
+    "test": "cross-env NODE_ENV=test jest --runInBand --coverage --watchAll",
+    "lint": "eslint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "eslint-plugin-jest": "^25.3.0",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
